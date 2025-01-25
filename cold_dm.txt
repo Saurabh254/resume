@@ -1,0 +1,15 @@
+Hi [Recruiter's Name],
+I'm Saurabh Vishwakarma, a BTech CSE student at Rajiv Gandhi Proudyogiki Vishwavidyalaya (NIIST) with a backend engineering internship experience.
+I'm reaching out to explore potential SDE internship opportunities at [Company Name].
+
+- I'm Proficient in Python, FastAPI, React, AWS, with proven experience in designing and cloud deployment
+- I have experience working with the integration of OpenAI and Anthropic.
+
+Are you currently considering backend or frontend engineering interns for your team? if not now please let me know in future if there are available opportunities.
+
+resume: https://resume.saurabhvishwakarma.in
+portfolio: https://saurabhvishwakarma.in
+github: https://github.com/saurabh254
+
+Best regards,
+Saurabh
