@@ -1,10 +1,277 @@
-<head>
-  <title>Resume</title>
-</head>
-<body>
-  <iframe
-    src="./saurabh_resume_v1.pdf"
-    type=""
-    style="width: 100%; height: 100%; border: none"
-  ></iframe>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harsh Singh - Resume</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="mobile-message">
+        <i class="fas fa-info-circle"></i> For the best experience viewing my
+        resume, you can download it using the download button below.
+      </div>
+      <div id="resume">
+        <header>
+          <div class="header-left">
+            <h1>Saurabh Vishwakarma</h1>
+            <p class="title">Software Engineer</p>
+          </div>
+          <div class="header-right">
+            <p>
+              <a href="mailto:contact@saurabhvishwakarma.in">
+                <i class="fas fa-envelope"></i> contact@saurabhvishwakarma.in
+              </a>
+              <a href="tel:+917047272436">
+                <i class="fas fa-phone"></i> +91 7000729488
+              </a>
+            </p>
+            <p>
+              <a href="https://saurabhvishwakarma.in/">
+                <i class="fas fa-globe"></i> saurabhvishwakarma.in
+              </a>
+              <a href="https://linkedin.com/in/saurabh254">
+                <i class="fab fa-linkedin"></i> linkedin.com/in/saurabh254
+              </a>
+            </p>
+            <p>
+              <a href="https://github.com/saurabh254">
+                <i class="fab fa-github"></i> github.com/saurabh254
+              </a>
+            </p>
+          </div>
+        </header>
+
+        <section class="section">
+          <h2>EXPERIENCE</h2>
+
+          <div class="experience-item">
+            <div class="job-header">
+              <h3>Software Engineer Intern, BlueMango Labs</h3>
+              <span class="date">Jan 2024 - Dec 2024</span>
+            </div>
+            <ul>
+              <li>
+                Architected and developed a high-performance REST API using
+                FastAPI Framework for an astrology application
+              </li>
+              <li>
+                Used Domain-Driven Design patterns, resulting in improved code
+                maintainability and enabling us to separate each entity with a
+                domain
+              </li>
+              <li>
+                Employed LiveKit SDK for real-time video streaming and voice
+                calls, supporting 1000+ concurrent users
+              </li>
+              <li>Orchestrated AWS EC2 deployment with Nginx load balancing</li>
+              <li>
+                Designed and implemented a scalable media management system
+                using AWS S3, handling user-generated content
+              </li>
+              <li>Integrated real-time messaging using MQTT Protocol</li>
+              <li>
+                Utilized Langchain for an AI-powered response system,
+                integrating Anthropic and OpenAI models
+              </li>
+              <li>
+                Connected Grafana and Prometheus for monitoring our
+                applications.
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>SKILLS</h2>
+          <div class="skills-list">
+            <p>
+              <strong>Languages & Frameworks:</strong> FastAPI, Django,
+              React.js, Langchain, Astro.js, Svelte.js
+            </p>
+            <p>
+              <strong>Cloud & Infrastructure:</strong> AWS (S3, RDS, EC2),
+              Firebase, Docker, CI/CD, Git, Linux, Grafana, Nginx
+            </p>
+            <p>
+              <strong>AI & Backend:</strong> Langchain integration (OpenAI &
+              Anthropic), RESTful APIs, MongoDB, PostgreSQL, Redis, RabbitMQ,
+              Memcached
+            </p>
+            <p>
+              <strong>Architecture & Design:</strong> Microservices, MVVM, Clean
+              Architecture, Domain-Driven Design, Monolithic
+            </p>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>PROJECTS</h2>
+          <div class="project-item">
+            <div class="project-header">
+              <div>
+                <h3>AI Fashion Stylist Platform</h3>
+                <p class="project-subtitle">
+                  Contract Work with Persist Ventures
+                </p>
+              </div>
+              <div class="project-meta">
+                <div class="date">Oct 2024 - Present</div>
+                <a
+                  href="https://github.com/harshsingh-io/lulu_stylist_app"
+                  class="project-link"
+                  >Link</a
+                >
+              </div>
+            </div>
+            <ul>
+              <li>
+                Engineered full-stack AI fashion platform using Flutter and
+                FastAPI, achieving 40% faster style recommendations through
+                optimized AI algorithms
+              </li>
+              <li>
+                Implemented secure authentication and real-time chat with 99.9%
+                uptime using PostgreSQL/MongoDB architecture
+              </li>
+              <li>
+                <strong>Technologies:</strong> Flutter, FastAPI, OpenAI API,
+                PostgreSQL, MongoDB, AWS S3
+              </li>
+            </ul>
+          </div>
+
+          <div class="project-item">
+            <div class="project-header">
+              <div>
+                <h3>PinSphere</h3>
+                <p class="project-subtitle">
+                  A Dynamic Platform for Multimedia Discovery
+                </p>
+              </div>
+              <div class="project-meta">
+                <div class="date">Aug 2024 - Oct 2024</div>
+                <a
+                  href="https://github.com/harshsingh-io/fruit_freshness_analysis"
+                  class="project-link"
+                  >Link</a
+                >
+              </div>
+            </div>
+            <ul>
+              <li>
+                Developed a full-stack social media platform for sharing images,
+                GIFs, audio, and video content
+              </li>
+              <li>
+                Architected scalable media storage solution using AWS S3,
+                implementing best practices for blob storage and optimizing for
+                cost and performance
+              </li>
+              <li>
+                Designed and implemented comprehensive security infrastructure
+                using JWT authentication and OAuth2, enabling secure third-party
+                login integration and protecting user data
+              </li>
+
+              <li>
+                Enhanced user experience by integrating BlurHash technology,
+                reducing perceived load times by displaying vibrant
+                low-resolution previews while media loads
+              </li>
+              <li>
+                Engineered modular monolith architecture to improve code
+                maintainability
+              </li>
+              <li>
+                Built automated media processing pipeline using Celery workers
+                to handle image compression, thumbnail generation, and BlurHash
+                creation, utilizing Python Pillow for optimized image
+                manipulation
+              </li>
+              <li>
+                Implemented comprehensive monitoring using Grafana and
+                Prometheus integration with FastAPI, enabling real-time
+                performance tracking and system health visualization
+              </li>
+              <li>
+                <strong>Technologies:</strong>
+                React, FastAPI, Celery, PostgreSQL, RabbitMQ, Docker,
+                OpenTelemetry
+              </li>
+            </ul>
+          </div>
+
+          <div class="notable-projects">
+            <strong>Notable Projects:</strong>
+            <a href="https://github.com/harshsingh-io/Sonnet">Sonnet</a> (A
+            logistic management system)
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>ACHIEVEMENTS</h2>
+          <ul>
+            <li>
+              Led winning team at CodeEnergia National Hackathon (2023):
+              Developed EcoSync, achieving 95% tracking accuracy and 20% utility
+              cost reduction
+            </li>
+            <li>
+              Technical Problem Solving: Solved 350+ DSA questions on LeetCode,
+              GeeksForGeeks, and Coding Ninja platforms
+            </li>
+            <li>
+              Hackathon Recognition: Achieved finalist positions in 4+ national
+              hackathons, including Flipkart Grid 2024
+            </li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <h2>EDUCATION</h2>
+          <div class="education-item">
+            <div class="education-header">
+              <h3>Bachelor of Engineering in Computer Science</h3>
+              <span class="date">Jul 2021 - Jun 2025</span>
+            </div>
+            <p>RGPV University, CGPA: 7.8/10</p>
+          </div>
+        </section>
+
+        <footer>
+          <p>
+            <strong>Coding Profile:</strong>
+            <a href="https://leetcode.com/harshsingh-io">LeetCode</a> |
+            <a href="https://auth.geeksforgeeks.org/user/harshsingh704888"
+              >GeeksForGeeks</a
+            >
+            |
+            <a
+              href="https://www.codingninjas.com/codestudio/profile/harshsingh_io"
+              >CodingNinja</a
+            >
+          </p>
+        </footer>
+      </div>
+
+      <div class="download-container">
+        <button id="downloadBtn" class="download-btn">
+          <span class="download-icon"><i class="fas fa-download"></i></span>
+          <span class="button-text">Download Resume</span>
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
