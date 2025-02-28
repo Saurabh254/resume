@@ -9,8 +9,8 @@ document.getElementById('downloadBtn').addEventListener('click', function () {
 
     // Create a link element
     const link = document.createElement('a');
-    link.href = 'Harsh_Singh_Resume.pdf'; // Path to your PDF file
-    link.download = 'harsh_singh_resume.pdf'; // Name for downloaded file
+    link.href = 'saurabh_vishwakarma_resume.pdf'; // Path to your PDF file
+    link.download = 'saurabh_vishwakarma_resume.pdf'; // Name for downloaded file
 
     // Append link to document, click it, and remove it
     document.body.appendChild(link);
